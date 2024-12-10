@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="logo">
+        <a href="#">GymFleuncer</a>
+      </div>
+      <div class="links">
+        <ul>
+          <li>Features</li>
+          <li>Diet Plan</li>
+          <li>Workout Plans</li>
+          <li>Blog</li>
+          <li>FAQ'S</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="btn-right">
+        <button class="getstart">Get Started</button>
+        <button class="login">
+          Login
+          <div class="arrow-wrapper">
+            <div class="arrow"></div>
+          </div>
+        </button>
+      </div>
+    </nav>
+    <!-- banner -->
+    <header class="banner">
+      <div class="banner-content">
+        <h1>Welcome to Our Website</h1>
+        <p>Your journey to success starts here</p>
+        <a href="#" class="learn-btn">Learn More</a>
+      </div>
+    </header>
+    <!-- grid section -->
+    <div class="grid">
+      <section class="image-grid">
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./images/calorie.jpg" alt="Image 1" />
+            <h3>Strength Training</h3>
+            <p>Build muscle, improve endurance, and increase strength.</p>
+          </div>
+          <div class="grid-item">
+            <img src="./images/diet.jpg" alt="Image 2" />
+            <h3>Cardio Workouts</h3>
+            <p>Boost your heart health and burn calories effectively.</p>
+          </div>
+          <div class="grid-item">
+            <img src="./images/time.jpg" alt="Image 3" />
+            <h3>Weight Loss Programs</h3>
+            <p>
+              Tailored workouts to help you reach your fitness goals faster.
+            </p>
+          </div>
+          <div class="grid-item">
+            <img src="./images/time.jpg" alt="Image 4" />
+            <h3>Heading 4</h3>
+            <p>Subheading 4</p>
+          </div>
+          <div class="grid-item">
+            <img src="./images/time1.jpg" alt="Image 5" />
+            <h3>Group Classes</h3>
+            <p>Join a community of fitness enthusiasts and stay motivated</p>
+          </div>
+          <div class="grid-item">
+            <img src="./images/workout.jpg" alt="Image 6" />
+            <h3>Personal Training</h3>
+            <p>Get personalized guidance to maximize your workout results.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="step1">
+      <div class="details">
+        <h1>Step 1: Click To Get Started</h1>
+        <p>
+          Start by the GymFluencer. The inituitive home screen gives you quick
+          access to all features.
+        </p>
+      </div>
+      <div class="image">
+        <img src="./images/workout.jpg" alt="" />
+      </div>
+    </section>
+    <section class="step1">
+      <div class="image">
+        <img src="./images/diet.jpg" alt="" />
+      </div>
+      <div class="details">
+        <h1>Step 2: Log Your Excercise</h1>
+        <p>
+          Easily log your excercise by selecting from a wide range of
+          activitis.Track your progress with detail logs
+        </p>
+      </div>
+    </section>
+    <section class="step1">
+      <div class="details">
+        <h1>Step 3: Cout Your Reps</h1>
+        <p>
+          Count your reps with precision, ensuring every details is logges. Stay
+          informed on your progress.
+        </p>
+      </div>
+      <div class="image">
+        <img src="./images/running.jpg" alt="" />
+      </div>
+    </section>
+    <section class="step1">
+      <div class="image">
+        <img src="./images/running.jpg" alt="" />
+      </div>
+      <div class="details">
+        <h1>Step 4: Track Your Progess</h1>
+        <p>
+          Count your reps with precision, ensuring every details is logges. Stay
+          informed on your progress.
+        </p>
+      </div>
+    </section>
+    <section class="faq">
+      <h1>Frequently Asked Questions</h1>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(0)">
+          What is GymFluencer?
+        </button>
+        <div class="faq-answer" id="answer-0">
+          GymFluencer is a fitness app that provides personalized workout plans
+          and nutrition tips.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(1)">
+          How do I get started with GymFluencer?
+        </button>
+        <div class="faq-answer" id="answer-1">
+          To get started, download the app, create an account, and follow the
+          on-screen instructions to set up your profile.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(2)">
+          Is GymFluencer free to use?
+        </button>
+        <div class="faq-answer" id="answer-2">
+          Yes, GymFluencer is free to download and use, but some premium
+          features require a subscription.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleAnswer(3)">
+          Can I sync GymFluencer with other apps?
+        </button>
+        <div class="faq-answer" id="answer-3">
+          Yes, GymFluencer integrates with various fitness apps like
+          MyFitnessPal and Google Fit.
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
